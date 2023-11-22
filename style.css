@@ -1,0 +1,51 @@
+html{margin: 0px;padding: 0px;}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("fond.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Optionnel : pour figer l'image pendant le défilement */
+    text-align: center;
+}
+.carte{
+    background-color: rgba(240, 248, 255, 0.852);
+    border: black solid 6px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px black;
+    padding: 16px;
+    font-size: 1.2rem;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin: 16px;
+    text-align: start;
+}
+li{
+    margin: 16px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(6,74,164,1) 2%, rgba(6,83,170,1) 43%, rgba(3,153,216,1) 74%, rgba(0,212,255,1) 100%);
+    margin: 0px;
+    padding: 16px;
+    margin-bottom: 16px;
+
+}
+h1,h2{
+    width: auto;
+    margin: auto;
+}
+main{
+    width: 80%;
+    margin: auto;
+}
+img{
+    width: 32px;
+    height: auto;
+}
+img:hover{
+    transform: scale(150%);
+}
